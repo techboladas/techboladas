@@ -11,6 +11,19 @@ const config: Config = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
+
+      'pallete': {
+        60: '#33312B',
+        30: '#403B30',
+        10: '#DAA520',
+        black: '#131313',
+        white: '#ffffff',
+        t60: '#33312B5E',
+        t30: '#403B3059',
+        t10: '#DAA5203D',
+
+      },
+
       'tech': {
         main: '#D9A521',
         secondary: '#333230',

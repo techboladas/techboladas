@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import { Header } from '@/components/Header'
-import { Body } from '@/components/Body/Body'
+import { NavBar } from '@/components/NavBar'
 
 export const metadata: Metadata = {
   title: 'Tech Boladas',
@@ -16,8 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
-      <Header/>
-      <body>{children}</body>
+      <body>
+      <NavBar />
+      {children}
+      </body>
     </html>
   )
 }
