@@ -5,9 +5,7 @@ import { SiNextdotjs } from "react-icons/si"
 import { FaRobot } from "react-icons/fa"
 
 export default function Home() {
-  const ICON_STYLE = {
-    fontSize: 82
-  }
+
   return (
     <Main>
       <Apresentation />
@@ -19,10 +17,10 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center p-5">
-          <Card icon={<SiNextdotjs style={ICON_STYLE}  />}  title="Site Robusto" description="Site com NextJS e Tailwind" />
+          <Card Icon={SiNextdotjs}  title="Site Robusto" description="Site com NextJS e Tailwind" />
         </div>
         <div>
-            <Card icon={<FaRobot style={ICON_STYLE}/>} title="Bot de automacao" description="Bot de automaçao whatshapp, telegram, instagram e windows"  />
+            <Card Icon={FaRobot} title="Bot de automacao" description="Bot de automaçao whatshapp, telegram, instagram e windows"  />
         </div>
         <div className="flex items-center justify-center">
           <p className="text-xl p-10 text-pallete-white">

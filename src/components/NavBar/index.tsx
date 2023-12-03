@@ -19,7 +19,7 @@ export const NavBar = () => {
         <p className="items-end">Create by <strong>T</strong></p>
       </section>
       <Menu className="col-span-1">
-          <MenuItem className="self-start w-20 h-96 border-0" onClick={(event: MouseEvent) => isOpen ? close() : open()}>
+          <MenuItem className="self-start w-20 h-96 border-0" onClick={(event) => isOpen ? close() : open()}>
             <p className="h-20 w-min p-1 text-center  ">
               <IoIosMenu style={{ fontSize: '50px'}} />
             </p>
