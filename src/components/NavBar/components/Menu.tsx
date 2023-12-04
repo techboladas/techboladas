@@ -5,12 +5,14 @@ type MenuProps = {
   className?: string;
 };
 
+
+
 export const Menu = ({ children, className }: MenuProps) => {
   return (
     <menu className="align-end justify-self-end bg-pallete-t10">
       <ul
         className={twMerge(
-          "w-max flex flex-col list-none justify-between",
+          " flex flex-col list-none justify-between",
           className
         )}
       >
