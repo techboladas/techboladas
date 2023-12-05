@@ -3,8 +3,8 @@ import { MouseEventHandler, useState } from "react";
 export const useMenu = () => {
   const MENU_OPEN_CONTENT_DISPLAY = "flex";
   const MENU_CLOSE_CONTENT_DISPLAY = "hidden";
-  const MENU_OPEN_WIDTH = "w-1/3";
-  const MENU_CLOSE_WIDTH = "w-20";
+  const MENU_OPEN_WIDTH = "w-4/5 md:w-1/3";
+  const MENU_CLOSE_WIDTH = "w-16 md:w-20";
   const MENU_OPEN_GRID = "grid-cols-3";
   const MENU_CLOSE_GRID = "grid-cols-1";
 
@@ -28,7 +28,7 @@ export const useMenu = () => {
     setOpen(true);
   };
 
-  const handleClick: MouseEventHandler<HTMLLIElement> = (e: MouseEvent) => {
+  const handleClick: MouseEventHandler<HTMLLIElement> = (e) => {
     if (isOpen) {
       close();
       return;

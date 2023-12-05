@@ -16,11 +16,11 @@ export const NavBar = () => {
         <Link href="#apresentation">Apresentacao</Link>
         <Link href="#">Servicos</Link>
         <Link href="#">Contacto</Link>
-        <p className="h-full self-end">Create by <strong>T</strong></p>
+        <p className="h-full self-end ">Create by <strong>T</strong></p>
       </section>
       <Menu className="col-span-1">
-          <MenuItem className="self-start justify-self-start h-full  border-0" onClick={handleClick}>
-           <IoIosMenu style={{ fontSize: '50px'}} /> 
+          <MenuItem className=" self-start justify-self-center w-full h-full border-0" onClick={handleClick}>
+           <IoIosMenu style={{ fontSize: '60px'}}  /> 
           </MenuItem>
           <MenuItem className="hover:bg-violet-600">
             <Link href="https://github.com/techboladas/" target="_blank" >
