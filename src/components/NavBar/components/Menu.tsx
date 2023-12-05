@@ -9,10 +9,10 @@ type MenuProps = {
 
 export const Menu = ({ children, className }: MenuProps) => {
   return (
-    <menu className="align-end justify-self-end bg-pallete-t10">
+    <menu className="w-16 h-screen  justify-self-end bg-pallete-t10 md:w-20 ">
       <ul
         className={twMerge(
-          " flex flex-col list-none justify-between",
+        "w-full h-screen flex flex-col",
           className
         )}
       >
