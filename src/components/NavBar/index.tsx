@@ -8,7 +8,7 @@ import { Menu } from './components/Menu'
 import { MenuItem } from './components/MenuItem'
 
 export const NavBar = () => {
-  const { open, close, isOpen, grid, width, contentDisplay: display } = useMenu();
+  const { handleClick, grid, width, contentDisplay: display } = useMenu();
   const ICON_STYLE = { fontSize: '42px' }
   return (
     <nav className={`${width} h-screen bg-pallete-30 text-2xl text-white fixed  grid ${grid}  transition-all`}>
@@ -16,13 +16,11 @@ export const NavBar = () => {
         <Link href="#apresentation">Apresentacao</Link>
         <Link href="#">Servicos</Link>
         <Link href="#">Contacto</Link>
-        <p className="items-end">Create by <strong>T</strong></p>
+        <p className="h-full self-end">Create by <strong>T</strong></p>
       </section>
       <Menu className="col-span-1">
-          <MenuItem className="self-start w-20 h-96 border-0" onClick={(event) => isOpen ? close() : open()}>
-            <p className="h-20 w-min p-1 text-center  ">
-              <IoIosMenu style={{ fontSize: '50px'}} />
-            </p>
+          <MenuItem className="self-start justify-self-start h-full  border-0" onClick={handleClick}>
+           <IoIosMenu style={{ fontSize: '50px'}} /> 
           </MenuItem>
           <MenuItem className="hover:bg-violet-600">
             <Link href="https://github.com/techboladas/" target="_blank" >

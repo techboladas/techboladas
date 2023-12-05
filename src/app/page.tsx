@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Main>
       <Apresentation />
-      <section className="h-screen w-full mt-60 pl-32 grid grid-cols-2 grid-rows-2">
+      <section id="services" className="h-screen w-full mt-60 pl-32 grid grid-cols-2 grid-rows-2">
         <div className="flex items-center justify-center">
           <p className="text-xl p-10 text-pallete-white"> 
             Desenvolvimento de sites profissionais com as melhores tecnologias do mercado. <br/>
