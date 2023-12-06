@@ -12,7 +12,7 @@ export const NavBar = () => {
   const ICON_STYLE = { fontSize: '42px' }
   return (
     <nav className={`${width} h-screen bg-tech-secondary  p-1 text-2xl text-white fixed  grid ${grid} auto-rows-max  transition-all`}>
-      <section className={`${display} flex-col gap-10 text-center w-48 mt-28  justify-self-end  row-span-2`}>
+      <section className={`${display} flex-col gap-10 text-center w-48 mt-28  justify-self-end  col-span-2`}>
         <Link href="#">Apresentacao</Link>
         <Link href="#">Servicos</Link>
         <Link href="#">Contacto</Link>
