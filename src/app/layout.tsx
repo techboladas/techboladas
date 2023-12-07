@@ -4,6 +4,9 @@ import "./globals.css";
 import { NavBar } from "@/components/NavBar";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/tech_logo.svg'
+  },
   title: "Tech Boladas",
   description: "Site pessoal da tech boladas",
 };

@@ -12,15 +12,15 @@ export default function Home() {
     <Main>
       <Apresentation />
       <Service />
-      <section className="w-full m-10 bg-pallete-t30 flex flex-col  justify-center items-center">
-        <h3 className="w-full text-pallete-white text-2xl p-5 pl-20 bg-pallete-t10  text-center">Sites</h3>
-        <article className="w-11/12 p-5 m-5  gap-5 flex flex-col justify-center items-end  md:flex-row">
-          <Card Icon={FaHtml5} title="Site simples" description="Criado com HTML5 e CSS3" className="w-full" />
+      <section className="w-full m-5 p-5 pl-10 bg-pallete-t30 flex flex-col  justify-center items-center">
+        <h3 className="w-full text-pallete-white text-2xl p-5 pl-10 bg-pallete-t10  rounded-r-lg md:ml-16">Sites</h3>
+        <article className="w-11/12 p-5 m-5  gap-5 flex flex-col justify-center items-end  md:flex-row houver:bg-pallete-10" >
+          <Card Icon={FaHtml5} title="Site simples" description="Criado com HTML5 e CSS3" className="w-full houver:bg-pallete-white" />
           <Card Icon={FaReact} title="Site mediano" description="Usando ReactJS" className="w-full" />
           <Card Icon={SiNextdotjs} title="Site robusto" description="Usando NextJs e Tailwind" className="w-full" />
         </article>
         <h3>Bots</h3>
-       <article className="w-11/12 p-5 m-5  gap-5 flex flex-col justify-center items-end  md:flex-row">
+       <article className="w-11/12 p-5 m-5   gap-5 flex flex-col justify-center items-end  md:flex-row ">
           <Card Icon={FaWhatsapp} title="Bot Whatsapp" description="Bot para Whatsapp" className="w-full" />
           <Card Icon={FaInstagram} title="Bot Instagram" description="Bot para Instagram" className="w-full" />
           <Card Icon={FaFacebook} title="Bot Facebook" description="Bot para Facebook" className="w-full" />
