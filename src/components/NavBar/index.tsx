@@ -18,7 +18,6 @@ export const NavBar = () => {
         <Link to="service" smooth duration={500}>Servicos</Link>
         <Link to="catalog" smooth duration={500}>Catalogo</Link>
         <Link to="contact"smooth duration={500}>Contacto</Link>
-        <p className="h-full self-end ">Create by <strong>T</strong></p>
       </section>
       <Menu className="col-span-1">
           <MenuItem className=" self-start justify-self-center w-full h-full border-0" onClick={handleClick}>
