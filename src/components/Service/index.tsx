@@ -7,7 +7,7 @@ import { Container } from "./components/Container"
 
 export const Service = () => {
    return (
-      <section className=" w-full mt-60 pl-10 grid grid-cols-1 grid-rows-4 justify-end content-center items-center md:grid-cols-2 md:grid-rows-2 md:h-screen">
+      <section id="service" className=" w-full mt-60 pl-10 grid grid-cols-1 grid-rows-4 justify-end content-center items-center md:grid-cols-2 md:grid-rows-2 md:h-screen">
         <Container className="items-center">
           <Text>
             Desenvolvimento de sites profissionais com as melhores tecnologias do mercado. 

@@ -6,7 +6,7 @@ import { CardContainer } from "./components/CardConteiner"
 
 export const Catalog = () => {
   return (
-      <section className="w-full m-5 p-5 pl-10 bg-pallete-t30 flex flex-col  justify-center items-center">
+      <section id="catalog" className="w-full m-5 p-5 pl-10 bg-pallete-t30 flex flex-col  justify-center items-center">
         <Title>Sites</Title>
         <CardContainer>
           <Card Icon={FaHtml5} title="Site simples" description="Criado com HTML5 e CSS3" className="w-full shadow-orange-600" />
