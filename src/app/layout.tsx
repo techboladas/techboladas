@@ -5,7 +5,7 @@ import { NavBar } from "@/components/NavBar";
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/tech_logo.svg'
+    icon: '/tech_icon.svg'
   },
   title: "Tech Boladas",
   description: "Site pessoal da tech boladas",
