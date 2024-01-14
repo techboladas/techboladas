@@ -7,7 +7,7 @@ export const useMenu = () => {
   const MENU_CLOSE_WIDTH = "w-16 md:w-20";
   const MENU_OPEN_GRID = "grid-cols-3";
   const MENU_CLOSE_GRID = "grid-cols-1";
-
+   
   const [isOpen, setOpen] = useState(true);
   const [contentDisplay, setContentDisplay] = useState(
     MENU_CLOSE_CONTENT_DISPLAY,

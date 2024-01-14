@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 import { MdAlternateEmail } from "react-icons/md"
 import { LinkBlock } from "./components/LinkBlock"
