@@ -12,47 +12,28 @@ export const metadata: Metadata = {
       "pt-PT": "/pt-PT",
     },
   },
-  openGraph: {
-    title: "Tech Boladas - Oficial Site",
-    description: "Tech Boladas evoluindo atraves da technologia",
-    url: "https://techboladas.vercel.app",
-    siteName: "Tech Boladas - Oficial Site",
-    images: "./opengraph-image.png",
-    type: "website",
-  },
+ 
   icons: {
-    icon: "/tech_icon.svg",
+    icon: "https://techboladas.vercel.app/favicon.ico",
   },
-  title: "Tech Boladas - Empresa de prestação de serviços",
-  description: "Tech Boladas evoluindo atraves da tecnologia",
+  title: {
+    default: "Tech Boladas",
+    template: "%s | Tech Boladas",
+    absolute: "Oficial Site - Tech Boladas"
+  },
   manifest: "https://techboladas.vercel.app/manifest.json",
   category: "technology",
   robots: {
     index: true,
     follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   referrer: "origin-when-cross-origin",
-  keywords: ["TechBoladas", "WebSite", "Negocio"],
+  keywords: ["TechBoladas", "tech-boladas", "Moçambique"],
   authors: [
-    { name: "Winike" },
-    { name: "Winike", url: "https://techboladas.vercel.app" },
+    { name: "Winike Cuamba" },
   ],
   creator: "Winike",
   publisher: "Winike Cuamba",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
 };
 
 export default function RootLayout({
@@ -65,8 +46,8 @@ export default function RootLayout({
       <body>
         <NavBar />
         {children}
-      </body>
       <Footer />
+      </body>
     </html>
   );
 }
