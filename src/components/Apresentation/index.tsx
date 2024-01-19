@@ -9,7 +9,7 @@ export const Apresentation = () => {
       id="apresentation"
       className="flex flex-col justify-center items-center"
     >
-      <h1 className="text-3xl self-end text-white font-extrabold mt-44 mb-4 sm:self-center md:text-5xl">
+      <h1 className="text-3xl  text-white font-extrabold mt-44 mb-4 self-center md:text-5xl">
         Tech Boladas
       </h1>
       <p className="w-4/5  p-5 pl-10 grid text-2xl text-pallete-white md:w-1/2 ">
